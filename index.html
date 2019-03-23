@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+  <title>My first map app</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h3>My First Map App</h3>
+  <ul>
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="#news">Attractions</a></li>
+    <li><a href="#contact">Climbing</a></li>
+    <li><a href="#about">Hiking</a></li>
+  </ul>
+  <div id="map"></div>
+  <script type="text/javascript" src="./lib/map.js">
+  </script>
+  <!-- <script type="text/javascript" src="./lib/marker.js"></script> -->
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCl2yPr8YsPZX8YWq5c_rIRcXcQ6v2i3bE&callback=initMap">
+</script>
+</body>
+</html>
